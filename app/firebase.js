@@ -6,7 +6,7 @@ import { getFirestore } from "firebase/firestore"
 import { getStorage } from 'firebase/storage';
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyAGzGWnktew1raTz4b75Q5F-ma3U2iXq1E",
+  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
   authDomain: "pantry-tracker-7c95c.firebaseapp.com",
   projectId: "pantry-tracker-7c95c",
   storageBucket: "pantry-tracker-7c95c.appspot.com",
